@@ -22,24 +22,24 @@
         }
         .logo-overlay {
             position: absolute;
-            top: 50%; /* Ajusta la posición si es necesario */
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 300px; /* Tamaño mayor para cubrir más área */
+            top: 20px; /* Ajusta la posición vertical */
+            left: 50%; /* Centra horizontalmente */
+            transform: translateX(-50%);
+            width: 200px; /* Ajusta el tamaño del logo */
             z-index: 10;
-            pointer-events: none; /* Evita interferir con el iframe */
+            pointer-events: none; /* Evita interferir con el visor */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Visor Web AR -->
-        <iframe src="https://mywebar.com/p/Project_1_dngwa6hm40" 
+        <iframe src="https://mywebar.com/p/Project_3_acdrnbmg16" 
                 allow="camera;gyroscope;accelerometer;magnetometer;xr-spatial-tracking;microphone;">
         </iframe>
-        <!-- Logo más grande para cubrir el de MyWebAR -->
+        <!-- Imagen que cubre la marca -->
         <img src="https://www.dropbox.com/scl/fi/0t04le1x56hybl8doz5st/LOGO-CENTRO-DIGITAL-DE-DISE-O-03.jpg?rlkey=q34aes4jmp10bzi6oavvealh7&raw=1" 
-             alt="Logo Centro Digital de Diseño" 
+             alt="Logo personalizado" 
              class="logo-overlay">
     </div>
 </body>
